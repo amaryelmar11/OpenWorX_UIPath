@@ -1,0 +1,6 @@
+{
+  "Name": "OpenWorX_E2E",
+  "ProjectType": "Tests",
+  "Description": "Test Automation Project",
+  "MainFile": "Main.xaml"
+}
