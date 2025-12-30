@@ -1,3 +1,9 @@
 {
-  "issueKeyTestcaseValues": {}
+  "issueKeyTestcaseValues": {},
+  "testManagerBasePath": "https://cloud.uipath.com/naaptnsdo/DefaultTenant/testmanager_",
+  "defaultProject": {
+    "id": "dfb3ba49-c06e-0000-b652-0b49174a74e4",
+    "name": "OpenWorX_Final",
+    "key": "OPXF"
+  }
 }

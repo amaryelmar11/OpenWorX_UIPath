@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OpenWorX_E2E.Core</name>
+    </assembly>
+    <members>
+        <member name="M:OpenWorX_E2E.WorkflowRunnerService.CoverageMergeHelperWorkflow(System.String,System.Int64,System.Boolean)">
+            <summary>
+            Invokes the CoverageMergeHelperWorkflow.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:OpenWorX_E2E.WorkflowRunnerService.Login(System.String,System.String,System.Boolean)">
+            <summary>
+            Invokes the Login.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:OpenWorX_E2E.WorkflowRunnerService.PerformanceTestingBootloaderWorkflow(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Object},System.Boolean)">
+            <summary>
+            Invokes the PerformanceTestingBootloaderWorkflow.cs
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:OpenWorX_E2E.WorkflowRunnerService.Post_a_job(System.Boolean)">
+            <summary>
+            Invokes the Post_a_job.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:OpenWorX_E2E.WorkflowRunnerService.TC_Login_Users(System.String,System.String,System.Boolean)">
+            <summary>
+            Invokes the TC_Login_Users.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+    </members>
+</doc>
