@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sFzBYoyu10y0drQyS4mGEg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pantherportal-prod.azurewebsites.net/login" CVScreenId="c2bdd5b3-c8f8-4288-a2be-2a1898f513e1" CvElementArea="1696, 174, 79, 40" CvTextArea="1711, 186, 48, 17" CvTextArgument="Logout" CvType="Button" DesignTimeRectangle="1699, 177, 72, 33" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Logout' tag='BUTTON' type='button' /&gt;" Guid="cef351b6-4fe3-474f-878f-bfbe4927f7ae" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="24782e20f0ded8946e26e58de78a8b2f.png" xmlns="">0IE2R7MJmmUevgedWMe9RcQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

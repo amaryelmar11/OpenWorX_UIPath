@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Y0JKHPuJyE-6F4uR-epclw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pantherportal-prod.azurewebsites.net" CVScreenId="a99224f1-e0c7-47a7-a199-1d131963b141" CvType="AnyWordGroup" DesignTimeRectangle="272, 108, 256, 26" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H4' /&gt;" Guid="0b997616-85ab-4600-850a-f64f698b9ce7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="90d969f72b8ea97ab199294e2f710020.png" xmlns="">0kVy5ECAQqky4bjGup2nc0g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

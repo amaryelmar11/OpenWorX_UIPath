@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VwTZdBTMFkCMaA0S8lkDcg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pantherportal-prod.azurewebsites.net/create-job" CVScreenId="5087ded0-f315-4680-846f-ae0f60b999dd" CvTextArea="371, 516, 40, 16" CvTextArgument="MBA" CvType="Text" DesignTimeRectangle="359, 504, 353, 41" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='MBA' tag='DIV' /&gt;" Guid="35aa959c-c6af-4505-acc7-b7f94d072f98" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1bdd565e7a63d76e447a12091999da0e.png" xmlns="">0GxkeaDHeQkepm1FVIB8Ykw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome OpenWorX",
+  "Type": "App",
+  "Id": "Ek486IrMtketIudE1XfusQ",
+  "Reference": "-Aa92v0zR0epOoMlu-QWWw/Ek486IrMtketIudE1XfusQ",
+  "Created": "2026-01-02T08:39:38.1765471Z",
+  "Updated": "2026-01-02T08:39:38.1765471Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.24.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

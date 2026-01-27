@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rY1t3g74706TgfDTlFUW8Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pantherportal-prod.azurewebsites.net/login" CVScreenId="b44e994d-1bf8-44d8-bca6-5235cdb827a8" CvElementArea="806, 388, 469, 37" CvType="InputBox" DesignTimeRectangle="808, 390, 467, 35" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='text' class='login-field-input placeholder-text form-control input-text' placeholder='Enter email or phone' aaname='Email or Phone *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="fdb70c25-b1cd-41f8-8d30-8893048e009b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b44e994d-1bf8-44d8-bca6-5235cdb827a8" CvElementArea="806, 388, 469, 37" CvType="InputBox" DesignTimeRectangle="808, 389, 124, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='input-label form-label' aaname='Email or Phone ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Email or Phone *' /&gt;" Guid="31db9cbd-dc02-494e-b39e-da617990abd6" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="b44e994d-1bf8-44d8-bca6-5235cdb827a8" CvElementArea="1167, 433, 109, 30" CvTextArea="1177, 440, 90, 16" CvTextArgument="Log in with code" CvType="Button" DesignTimeRectangle="808, 416, 467, 35" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='email' tag='INPUT' /&gt;" Guid="38b215f2-5b95-4924-abc3-12f6e6e4b14b" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="51721636ddd15f6519001f928964531e.png" xmlns="">0y-ihz7uPCUeLg4jqf0wFlQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

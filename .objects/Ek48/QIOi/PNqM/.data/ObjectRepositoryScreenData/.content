@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="pGR1nQCqXE2Vm7z8W61xBg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="1912, -8, 1936, 1048" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAALISURBVFhH7ZY9aFNRFMdv0tgokkXo5iB2Eh11EhwEByfBvat2chAXJwWxJiZ9yau2BU1pkSrWDwQRHVpQEcHW1A/E+AHiVKpD0BqqSZOcv5x73rXxJXl5IaVdcuFP8l4u5/87H+++qK4kYSOl3DfWWx2ADsCaAWxKEcJ2rdz73FoTgFCKEEwQ1IVadVm1+6vVMoDJjDPmazZXCUJvmhCdA6wMkHgJ2K+A08+ALUOEoEUI1YnFahlARQlqQDI2EGwwuwi9KgQQyffcH6BnlKAGBdQdS8dz36gnpmeTsEXonyEkMsDuCclcxQkHborjSgUoVYBCSQAms9DA3Q3MfQNwABUjJOclMK/vy8CONEGdJwy/lntszourwOvIPalY2wBG73MSeKkon0fvSxUW8qvGxvzrEhAZIgQ8+s/yBaArcJFwLSvB2aNYBrZfIRy+K44l7r3TBl72PPRT0OxR9A8wSIjYhIFZ4PZn4OAtgjpDuPNJDMuOsVMA7L8h0F7l9wXA0xtIEDanCNtG5B5Pv7IIfY8Iv0vAzwKQXwF+FKCvh99At6bR5FfLE0AbJQi7xgnZHPCrKP1nIy71i0Wgd4yw9ZLsj1wm/dgF4s0PICNPgG5bpnj8nZTVPeWHpgjqLGHPBOHYtIDqqbe9B88XAAfgvveMEL4tO8aV1V5/zEHOgCn6B8ZV4WvuvTmkmqkhgMm+76GkW3ayNmaxOeghvOpUh+eA1+hbf9PfFED3P0Z48EUCGwBefNTumySoc4RTT+WHQll+O/lEwNsCMMO3M03IF6XnXF5j8nxBppz3hpOEeAb4kIP+5Oug00J33HqqC8D0XMYTj51Dxim7qUL/dFWWllRKvxdi/qffE0BXIE7Ye530M83vABZ/Pz5DCFWZcKZm6luZfqO6AFp8AMXl1fvfn4xonb1tqDFAG3+zWpEnwHqoA9AB2HCAvz1k35ijR4y3AAAAAElFTkSuQmCC" Selector="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" Url="https://pantherportal-prod.azurewebsites.net/" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="7f99cf3805edd0a4c4268d08be165e35.jpg" xmlns="">0dcIYV7tE7U-BHQNDOKwb1Q</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

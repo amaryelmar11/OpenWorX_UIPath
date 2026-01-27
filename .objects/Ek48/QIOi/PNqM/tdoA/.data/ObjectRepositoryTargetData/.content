@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1ez5Cu4wWEKxnRHGrE7Btg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="pantherportal-prod.azurewebsites.net/create-job" CVScreenId="381adff8-2318-4158-82e5-56dca782068d" CvElementArea="357, 747, 356, 45" CvType="InputBox" DesignTimeRectangle="371, 756, 288, 28" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl type='' class='select__input-container css-19bb58m' parentid='collapseOne' tag='DIV' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f856fd3c-b618-4b6c-8ab7-504f6843c5d5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="381adff8-2318-4158-82e5-56dca782068d" CvTextArea="358, 719, 143, 17" CvTextArgument="Level of education" CvType="Text" DesignTimeRectangle="359, 717, 141, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Level of education' tag='LABEL' type='' class='fw-semi-bold form-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Level of education' /&gt;" Guid="a7c0f293-8e13-429e-a0ae-3e18184876fa" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b8db2ecb249825d36b8de06b6cd22f4b.png" xmlns="">0LslINhU59Ey92wYgJAp3Ig</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Level of education",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "tdoAUizjUECgOrl9-hunVQ",
+  "Reference": "-Aa92v0zR0epOoMlu-QWWw/tdoAUizjUECgOrl9-hunVQ",
+  "ParentRef": "-Aa92v0zR0epOoMlu-QWWw/PNqMIhsMiUaekSFIoI96cg",
+  "Created": "2026-01-12T09:29:01.7898976Z",
+  "Updated": "2026-01-12T09:29:01.7898976Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.24.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

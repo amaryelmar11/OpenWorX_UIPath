@@ -4,15 +4,45 @@
         <name>OpenWorX_E2E.Core</name>
     </assembly>
     <members>
+        <member name="M:OpenWorX_E2E.WorkflowRunnerService.Candidate_Registration(System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Invokes the Candidate_Registration.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:OpenWorX_E2E.WorkflowRunnerService.Candidate_Upload_Resume(System.Boolean)">
+            <summary>
+            Invokes the Candidate_Upload_Resume.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
         <member name="M:OpenWorX_E2E.WorkflowRunnerService.CoverageMergeHelperWorkflow(System.String,System.Int64,System.Boolean)">
             <summary>
             Invokes the CoverageMergeHelperWorkflow.xaml
             </summary>
             <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
         </member>
-        <member name="M:OpenWorX_E2E.WorkflowRunnerService.Login(System.String,System.String,System.Boolean)">
+        <member name="M:OpenWorX_E2E.WorkflowRunnerService.E2E(System.Boolean)">
+            <summary>
+            Invokes the E2E.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:OpenWorX_E2E.WorkflowRunnerService.End2End__Jobs_Candidate_Matching(System.Boolean)">
+            <summary>
+            Invokes the End2End)_Jobs_Candidate_Matching.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:OpenWorX_E2E.WorkflowRunnerService.Login(System.String,System.String,System.String,System.String,System.Boolean)">
             <summary>
             Invokes the Login.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:OpenWorX_E2E.WorkflowRunnerService.Login_All_Users(System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Invokes the Login_All_Users.xaml
             </summary>
             <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
         </member>
@@ -28,9 +58,33 @@
             </summary>
             <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
         </member>
+        <member name="M:OpenWorX_E2E.WorkflowRunnerService.TC_Candidate_Registration_RandomData(System.Boolean)">
+            <summary>
+            Invokes the TC_Candidate_Registration_RandomData.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:OpenWorX_E2E.WorkflowRunnerService.TC_Job_Post_DynamicData(System.Boolean)">
+            <summary>
+            Invokes the TC_Job_Post_DynamicData.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
         <member name="M:OpenWorX_E2E.WorkflowRunnerService.TC_Login_Users(System.String,System.String,System.Boolean)">
             <summary>
             Invokes the TC_Login_Users.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:OpenWorX_E2E.WorkflowRunnerService.TC_Login_Validation(System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Invokes the TC_Login_Validation.xaml
+            </summary>
+            <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
+        </member>
+        <member name="M:OpenWorX_E2E.WorkflowRunnerService.TC_Upload_Resume(System.Boolean)">
+            <summary>
+            Invokes the TC_Upload_Resume.xaml
             </summary>
             <param name="isolated">Indicates whether to isolate executions (run them within a different process)</param>
         </member>
