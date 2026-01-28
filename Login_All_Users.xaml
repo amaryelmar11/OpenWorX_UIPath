@@ -112,7 +112,7 @@
       <AssemblyReference>NPOI.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="787,1564" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="524,1564" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -132,15 +132,12 @@
             </sap:WorkflowViewStateService.ViewState>
             <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''Email or Phone *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_7" InteractionMode="SameAsCard" ScopeIdentifier="a63e0280-2253-450b-94e2-e091a376b437" Text="[in_Username]" Version="V5">
               <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/login" CVScreenId="8d66f0a0-05c0-4398-b6f3-30a0fb014195" CvElementArea="807, 415, 469, 34" CvType="InputBox" DesignTimeRectangle="808, 443, 468, 32" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='email' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='text' class='login-field-input placeholder-text form-control input-text' placeholder='Enter email or phone' aaname='Email or Phone *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="abb35f25-32a6-4930-884f-873f90ed504f" InformativeScreenshot="6ff4647cb4884514951a33fe56dd7d03.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/login" DesignTimeRectangle="808, 457, 469, 29" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='text' class='login-field-input placeholder-text form-control input-text' placeholder='Enter email or phone' aaname='Email or Phone *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="10002ce3-d76d-474a-b295-3532a1a2b2e3" InformativeScreenshot="40f37c9f0346e9960e6a6c2e5d799db0.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="8d66f0a0-05c0-4398-b6f3-30a0fb014195" CvElementArea="807, 415, 469, 34" CvType="InputBox" DesignTimeRectangle="807, 442, 470, 34" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='input-label form-label' aaname='Email or Phone ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Email or Phone *' /&gt;" Guid="fbe1ebcb-a3e5-4478-b6d9-fb8cb1810a05" SearchSteps="FuzzySelector, CV" />
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="808, 435, 101, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='input-label form-label' aaname='Email or Phone ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Email or Phone *' /&gt;" Guid="a3896d0a-798a-4295-8f38-6fd172e7f7e6" SearchSteps="FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
-                  <uix:TargetAnchorable.PointOffset>
-                    <uix:PointOffset />
-                  </uix:TargetAnchorable.PointOffset>
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
               <uix:NTypeInto.VerifyOptions>
@@ -156,15 +153,12 @@
             </uix:NTypeInto>
             <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''Password *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_8" InteractionMode="SameAsCard" IsPassword="True" ScopeIdentifier="a63e0280-2253-450b-94e2-e091a376b437" Text="[in_Password]" Version="V5">
               <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/login" CVScreenId="8d66f0a0-05c0-4398-b6f3-30a0fb014195" CvTextArea="1642, 460, 48, 18" CvTextArgument="Forgot" CvType="Text" DesignTimeRectangle="1300, 443, 429, 32" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='login-field-input placeholder-text form-control ' placeholder='Enter password' aaname='Password *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="3e373ea4-05dd-45bb-b0d2-2aff618a02cd" InformativeScreenshot="d38b4ba3696b5609eed14680b00d7c36.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/login" DesignTimeRectangle="1299, 457, 434, 29" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='login-field-input placeholder-text form-control is-invalid' placeholder='Enter password' aaname='Password *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="e22cbd4a-9397-42d7-b169-4701299d0266" InformativeScreenshot="04a7c9ef110bc1901a89a70c9834edf5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="8d66f0a0-05c0-4398-b6f3-30a0fb014195" CvElementArea="1300, 415, 429, 34" CvType="InputBox" DesignTimeRectangle="1300, 418, 75, 17" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Password ' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Password ' tag='LABEL' type='' class='input-label form-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Password *' /&gt;" Guid="d0e0bc40-7b16-4412-916a-77b3da7c2677" SearchSteps="FuzzySelector, CV" />
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="1299, 435, 67, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password ' tag='LABEL' type='' class='input-label form-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Password *' /&gt;" Guid="f23286f6-7e44-4926-9356-51e7086ea416" SearchSteps="FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
-                  <uix:TargetAnchorable.PointOffset>
-                    <uix:PointOffset />
-                  </uix:TargetAnchorable.PointOffset>
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
               <uix:NTypeInto.VerifyOptions>

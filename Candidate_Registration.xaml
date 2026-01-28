@@ -147,19 +147,19 @@
       <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Candidate_Registration" sap:VirtualizedContainerService.HintSize="927,6510" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Candidate_Registration" sap:VirtualizedContainerService.HintSize="868,6514" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Use Browser Chrome: OpenWorX" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,6487" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="{x:Null}" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" IsIncognito="False" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" OutUiElement="{x:Null}" ScopeGuid="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Use Browser Chrome: OpenWorX" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,6491" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="{x:Null}" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" IsIncognito="False" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" OutUiElement="{x:Null}" ScopeGuid="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,6365" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,6369" sap2010:WorkflowViewState.IdRef="Sequence_4">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="randomEmail" />
               <Variable x:TypeArguments="x:String" Name="currentEmail" />
@@ -249,7 +249,7 @@
                 <InArgument x:TypeArguments="x:String">["test" &amp; Now.Ticks.ToString &amp; "@test.com"]</InArgument>
               </Assign.Value>
             </Assign>
-            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into ''Email *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InScope="{x:Null}" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" SecureText="{x:Null}" Text="[randomEmail]" Timeout="{x:Null}" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into ''Email *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" SecureText="{x:Null}" Text="[randomEmail]" Timeout="{x:Null}" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/registration" DesignTimeRectangle="168, 693, 468, 38" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='email' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='email' class='form-control placeholder-name ' placeholder='Enter Email' aaname='Email *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="446ecc7d-e37c-44b4-bcce-78abb6e7f8f1" InformativeScreenshot="404a2f584df36a9bc156fe0f396ee8ba.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -273,7 +273,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into ''Phone *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InScope="{x:Null}" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" SecureText="{x:Null}" Text="[in_Phone]" Timeout="{x:Null}" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into ''Phone *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" SecureText="{x:Null}" Text="[in_Phone]" Timeout="{x:Null}" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/registration" DesignTimeRectangle="660, 693, 468, 38" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='phoneNumber' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='phoneNumber' tag='INPUT' type='text' class='form-control placeholder-name ' placeholder='Enter Phone Number' aaname='Phone *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="edcbdc2f-2a0d-408e-8de1-2d7239c5aa87" InformativeScreenshot="5127b178290459d43cb73aeac47f3f99.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -297,7 +297,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Create account''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_3" InScope="{x:Null}" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Create account''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_3" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/registration" DesignTimeRectangle="972, 771, 156, 34" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='' class=' btn-text btn btn-primary btn-lg' aaname='Create account' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Create account' /&gt;" Guid="87d01b2e-2fe7-45e5-9bc4-10f7727b6351" InformativeScreenshot="26e646808fb56e204d3112203c7551c5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -306,7 +306,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <ui:HttpClient AcceptFormat="JSON" AuthenticationType="None" Body="{x:Null}" BodyFormat="application/xml" ClientCertificate="{x:Null}" ClientCertificatePassword="{x:Null}" ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" ContinueOnError="{x:Null}" DisplayName="HTTP Request (legacy)" EnableSSLVerification="True" EndPoint="https://panther-api-prod.azurewebsites.net/api/Common/GetCommonDropdown?searchText=phoneotp&amp;commonId=1" FileAttachments="{x:Null}" sap:VirtualizedContainerService.HintSize="416,107" sap2010:WorkflowViewState.IdRef="HttpClient_5" Method="GET" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" ResourcePath="{x:Null}" ResponseAttachment="{x:Null}" ResponseHeaders="{x:Null}" Result="[responseString]" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" StatusCode="{x:Null}" TimeoutMS="6000" Username="{x:Null}">
+            <ui:HttpClient ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" Username="{x:Null}" AcceptFormat="JSON" AuthenticationType="None" Body="{x:Null}" BodyFormat="application/xml" ClientCertificate="{x:Null}" ClientCertificatePassword="{x:Null}" ContinueOnError="{x:Null}" DisplayName="HTTP Request (legacy)" EnableSSLVerification="True" EndPoint="https://panther-api-prod.azurewebsites.net/api/Common/GetCommonDropdown?searchText=phoneotp&amp;commonId=1" FileAttachments="{x:Null}" sap:VirtualizedContainerService.HintSize="416,107" sap2010:WorkflowViewState.IdRef="HttpClient_5" Method="GET" ResourcePath="{x:Null}" ResponseAttachment="{x:Null}" ResponseHeaders="{x:Null}" Result="[responseString]" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" StatusCode="{x:Null}" TimeoutMS="6000">
               <ui:HttpClient.Attachments>
                 <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
               </ui:HttpClient.Attachments>
@@ -345,7 +345,7 @@ FirstOrDefault()]</InArgument>
               </Assign.Value>
             </Assign>
             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="{x:Null}" Message="[&quot;OTP not found yet for &quot; &amp; currentEmail]" />
-            <Assign sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_4">
+            <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_4">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">[otpValue]</OutArgument>
               </Assign.To>
@@ -452,7 +452,7 @@ FirstOrDefault()]</InArgument>
                 </uix:TargetAnchorable>
               </uix:NCheck.Target>
             </uix:NCheck>
-            <uix:NCheck Action="Check" AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Check/Uncheck ''unchecked''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,199" sap2010:WorkflowViewState.IdRef="NCheck_4" InScope="{x:Null}" InUiElement="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" Version="V5">
+            <uix:NCheck Action="Check" AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Check/Uncheck ''unchecked''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,199" sap2010:WorkflowViewState.IdRef="NCheck_4" InUiElement="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" Version="V5">
               <uix:NCheck.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net" DesignTimeRectangle="1170, 593, 14, 14" DesignTimeScaleFactor="1" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='workType_1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='workType_1' tag='INPUT' type='checkbox' class='form-check-input' aaname='Remote' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="8db2e37b-91e0-4ce6-b1a7-9b1b4455eda6" InformativeScreenshot="4ca06038825b12c4ff243c3449665956.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6">
                   <uix:TargetAnchorable.Anchors>

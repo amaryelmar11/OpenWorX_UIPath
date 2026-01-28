@@ -123,13 +123,13 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Post_a_job" sap:VirtualizedContainerService.HintSize="927,14827" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Post_a_job" sap:VirtualizedContainerService.HintSize="868,16003" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Use Browser Chrome: OpenWorX" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,1003" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InUiElement="{x:Null}" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" IsIncognito="{x:Null}" OpenMode="{x:Null}" OutUiElement="{x:Null}" ScopeGuid="e99ca79d-d920-40c4-9354-12b926ff9cd7" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Use Browser Chrome: OpenWorX" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,1075" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" ScopeGuid="e99ca79d-d920-40c4-9354-12b926ff9cd7" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -141,7 +141,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into ''Email or Phone *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InUiElement="{x:Null}" InteractionMode="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="e99ca79d-d920-40c4-9354-12b926ff9cd7" SecureText="{x:Null}" Text="nyrayelmar@gmail.com" Timeout="{x:Null}" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''Email or Phone *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="e99ca79d-d920-40c4-9354-12b926ff9cd7" Text="nyrayelmar@gmail.com" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/login" CVScreenId="33cb3439-4f7c-49b5-bfad-296758df3459" CvElementArea="807, 442, 470, 34" CvType="InputBox" DesignTimeRectangle="808, 443, 468, 32" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='email' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='text' class='login-field-input placeholder-text form-control input-text' placeholder='Enter email or phone' aaname='Email or Phone *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="845e1b67-f622-4feb-860d-637ab2bdc72b" InformativeScreenshot="97ff9b33f0b8837caa531e232f22bf4e.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -165,7 +165,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into ''Password *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InUiElement="{x:Null}" InteractionMode="{x:Null}" IsPassword="True" OutUiElement="{x:Null}" ScopeIdentifier="e99ca79d-d920-40c4-9354-12b926ff9cd7" SecureText="{x:Null}" Text="Amar@123" Timeout="{x:Null}" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''Password *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="e99ca79d-d920-40c4-9354-12b926ff9cd7" Text="Amar@123" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/login" CVScreenId="33cb3439-4f7c-49b5-bfad-296758df3459" CvElementArea="1301, 441, 431, 34" CvType="InputBox" DesignTimeRectangle="1300, 443, 429, 32" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='password' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='login-field-input placeholder-text form-control ' placeholder='Enter password' aaname='Password *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="3e9045ec-7b43-4e95-a3af-eccbf32c817f" InformativeScreenshot="ee6a6a0aee12669caa43b2131499eabc.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -189,7 +189,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Sign in''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,308" sap2010:WorkflowViewState.IdRef="NClick_1" InUiElement="{x:Null}" InteractionMode="{x:Null}" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="e99ca79d-d920-40c4-9354-12b926ff9cd7" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Sign in''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,308" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e99ca79d-d920-40c4-9354-12b926ff9cd7" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/login" CVScreenId="33cb3439-4f7c-49b5-bfad-296758df3459" CvElementArea="1673, 550, 88, 37" CvTextArea="1689, 560, 55, 22" CvTextArgument="Sign in" CvType="Button" DesignTimeRectangle="1675, 552, 85, 34" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Sign in' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Sign in' tag='BUTTON' type='' class='btn-text me-2 ms-2 btn btn-primary btn-lg' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Sign in' /&gt;" Guid="eb1aed1f-75fe-42bf-b77e-c40e36bc8580" InformativeScreenshot="9055740239d4bfa6d28301e6fbf8cecc.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -234,13 +234,13 @@
         </uix:TargetApp>
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="{x:Null}" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Chrome OpenWorX(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,13801" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InUiElement="{x:Null}" InteractionMode="DebuggerApi" IsIncognito="{x:Null}" OpenMode="{x:Null}" OutUiElement="{x:Null}" ScopeGuid="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome OpenWorX(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,18023" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" ScopeGuid="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,13679" sap2010:WorkflowViewState.IdRef="Sequence_6">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,17852" sap2010:WorkflowViewState.IdRef="Sequence_6">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="variable1" />
               <Variable x:TypeArguments="x:String" Name="Job_title" />
@@ -251,7 +251,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Post a job''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_4" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Post a job''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net" CVScreenId="a9dd6700-d281-474a-ad1d-0063755c2aea" CvTextArea="51, 275, 69, 19" CvTextArgument="Post a job" CvType="Text" DesignTimeRectangle="24, 264, 256, 40" DesignTimeScaleFactor="1" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;nav&amp;gt;ul&amp;gt;li&amp;gt;div' idx='2' parentid='root' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='side-navigation-panel-select-option ' parentid='root' tag='DIV' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Post a job' /&gt;" Guid="316855aa-f06e-4ad3-b88e-64622a80c645" InformativeScreenshot="0e747c88d6d980002baa21f586db6c54.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector, CV" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -260,7 +260,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Scheduled &amp;''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_5" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Scheduled &amp;''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" CVScreenId="a9dd6700-d281-474a-ad1d-0063755c2aea" CvTextArea="473, 622, 82, 15" CvTextArgument="Scheduled &amp;" CvType="Text" DesignTimeRectangle="372, 606, 187, 24" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Create new job posting' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Create new job posting' tag='LABEL' type='' class='radio-label-custom form-check-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Create new job posting' /&gt;" Guid="97bad2f5-8f8d-4d56-b0af-56b0a75bdbb3" InformativeScreenshot="a279e533ccfd37f3299be8058cb0423b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector, CV" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -269,7 +269,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Continue''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_6" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Continue''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" DesignTimeRectangle="1779, 766, 109, 33" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Continue' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Continue' tag='BUTTON' type='button' class='btn-shadow btn-wide float-end btn-pill btn-hover-shine btn btn-primary' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Continue' /&gt;" Guid="bd244259-f913-4c0a-a590-5f3d061848d7" InformativeScreenshot="f359706e5b26d0bafa4db7fceb04e328.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -286,7 +286,7 @@
                 <InArgument x:TypeArguments="x:String">["Marketing Executive"]</InArgument>
               </Assign.Value>
             </Assign>
-            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into ''Job title*''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" SecureText="{x:Null}" Text="[Job_title]" Timeout="{x:Null}" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''Job title*''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Text="[Job_title]" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" DesignTimeRectangle="353, 565, 358, 36" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='jobTitle' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='jobTitle' tag='INPUT' type='text' class='form-control' placeholder='Eg. UX UI Designer' aaname='Job title* ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="a376c5f1-98ff-4522-918f-4d149dd1af98" InformativeScreenshot="6caa0a7a8e02ad9518f67ffdb1c0235d.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -310,7 +310,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <Assign sap:VirtualizedContainerService.HintSize="452,175" sap2010:WorkflowViewState.IdRef="Assign_2">
+            <Assign sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="Assign_2">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:Int32">[noofopening]</OutArgument>
               </Assign.To>
@@ -318,7 +318,7 @@
                 <InArgument x:TypeArguments="x:Int32">[New Random().Next(1,16)]</InArgument>
               </Assign.Value>
             </Assign>
-            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into ''Number of positions*''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" SecureText="{x:Null}" Text="[noofopening.ToString]" Timeout="{x:Null}" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''Number of positions*''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="SameAsCard" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Text="[noofopening.ToString]" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" DesignTimeRectangle="735, 565, 358, 36" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='openPositions' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='openPositions' tag='INPUT' type='number' class='form-control' placeholder='Eg. 2' aaname='Number of positions* ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="c3f705c1-76da-4ff4-976e-8a385416874c" InformativeScreenshot="56f106d799f218a19d43fe97818f9b3a.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -342,7 +342,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NSelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item ''Job location*''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,200" sap2010:WorkflowViewState.IdRef="NSelectItem_1" InUiElement="{x:Null}" Item="Remote" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" Version="V5">
+            <uix:NSelectItem DisplayName="Select Item ''Job location*''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,204" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Remote" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NSelectItem.Items>
                 <scg:List x:TypeArguments="x:String" Capacity="4">
                   <x:String>Select job location</x:String>
@@ -364,7 +364,7 @@
                 </uix:TargetAnchorable>
               </uix:NSelectItem.Target>
             </uix:NSelectItem>
-            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into ''City, State*''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" SecureText="{x:Null}" Text="maynard" Timeout="{x:Null}" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''City, State*''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="SameAsCard" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Text="maynard" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" DesignTimeRectangle="360, 673, 307, 25" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='collapseOne' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class=' css-18w4uv4' parentid='collapseOne' tag='DIV' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="0523234c-6b6f-4842-b9ed-0dad5a05c399" InformativeScreenshot="3ff484e7796976e59158992a248608b7.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -388,7 +388,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Maynard, Massachusetts''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_7" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Maynard, Massachusetts''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" CVScreenId="a9dd6700-d281-474a-ad1d-0063755c2aea" CvTextArea="356, 797, 55, 16" CvTextArgument="Accepted" CvType="Text" DesignTimeRectangle="353, 791, 358, 37" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Maynard, Massachusetts' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Maynard, Massachusetts' tag='DIV' type='' class=' css-10wo9uf-option' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Maynard, Massachusetts' /&gt;" Guid="df0bdb2c-0760-43b4-9fd4-59968c4e564b" InformativeScreenshot="a5df16b3a234c1099920a146331f911e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector, CV" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -397,7 +397,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Level of education'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_10" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" SecureText="{x:Null}" Text="MBA" Timeout="{x:Null}" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Level of education'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_10" InteractionMode="SameAsCard" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Text="MBA" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" CVScreenId="a0343947-982e-416c-a38d-158c14a68d86" ContentHash="NAxAzQPr9kSnKQtLZ_meyw" CvElementArea="358, 747, 355, 45" CvType="InputBox" DesignTimeRectangle="371, 756, 288, 28" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl type='' class='select__input-container css-19bb58m' parentid='collapseOne' tag='DIV' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="d54346ee-52b4-426a-b8d0-92916f62a4ed" InformativeScreenshot="b7c6da40af90ba374bdf5839b26f7ec7.png" Reference="-Aa92v0zR0epOoMlu-QWWw/-o5uHPaS80mrphol3Caegg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -418,12 +418,12 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Level of education'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_25" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Level of education'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_25" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" CVScreenId="5087ded0-f315-4680-846f-ae0f60b999dd" ContentHash="VwTZdBTMFkCMaA0S8lkDcg" CvTextArea="371, 516, 40, 16" CvTextArgument="MBA" CvType="Text" DesignTimeRectangle="359, 504, 353, 41" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='MBA' tag='DIV' /&gt;" Guid="35aa959c-c6af-4505-acc7-b7f94d072f98" InformativeScreenshot="1bdd565e7a63d76e447a12091999da0e.png" Reference="-Aa92v0zR0epOoMlu-QWWw/dDMUuOrUD06A_LbajnB-8g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into ''DIV''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" SecureText="{x:Null}" Text="Marketing" Timeout="{x:Null}" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''DIV''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InteractionMode="SameAsCard" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Text="Marketing" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" DesignTimeRectangle="353, 647, 740, 150" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='textbox' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='textbox' tag='DIV' type='' class='ck-blurred ck ck-content ck-editor__editable ck-rounded-corners ck-editor__editable_inline' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="dd86fc11-871e-45d2-a556-05109dfc9967" InformativeScreenshot="38464323c4fea9a9743b225f9b73a776.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -442,7 +442,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Experience &amp; Schedules''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_8" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Experience &amp; Schedules''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" DesignTimeRectangle="354, 857, 1501, 21" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='headingTwo' tag='H5' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='headingTwo' tag='H5' type='' class='m-0 p-0 fw-semi-bold' aaname='Experience &amp;amp; Schedules' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Experience &amp;amp; Schedules' /&gt;" Guid="7eda61da-0b78-47ca-ae20-1dec250cc369" InformativeScreenshot="c760e16d473aec6150109b28550224a4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -456,7 +456,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''unchecked''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_9" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''unchecked''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" DesignTimeRectangle="380, 440, 63, 21" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='form-check-label' parentid='collapseTwo' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl class='form-check-label' parentid='collapseTwo' tag='LABEL' type='' aaname='Full-time' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Full-time' /&gt;" Guid="db7ea8e1-a009-4352-a3d8-adfd0f38a5c8" InformativeScreenshot="6bb00407b1b4aa7c5bffe6d7bf9ce84a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -465,7 +465,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NSelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item ''Experience level''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,200" sap2010:WorkflowViewState.IdRef="NSelectItem_2" InUiElement="{x:Null}" Item="5 years" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" Version="V5">
+            <uix:NSelectItem DisplayName="Select Item ''Experience level''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,204" sap2010:WorkflowViewState.IdRef="NSelectItem_2" Item="5 years" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NSelectItem.Items>
                 <scg:List x:TypeArguments="x:String" Capacity="17">
                   <x:String>Select experience level</x:String>
@@ -500,7 +500,7 @@
                 </uix:TargetAnchorable>
               </uix:NSelectItem.Target>
             </uix:NSelectItem>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Compensation &amp; Benefits''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_10" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Compensation &amp; Benefits''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" DesignTimeRectangle="354, 661, 1501, 21" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='headingThree' tag='H5' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='headingThree' tag='H5' type='' class='m-0 p-0 fw-semi-bold' aaname='Compensation &amp;amp; Benefits' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Compensation &amp;amp; Benefits' /&gt;" Guid="6452969a-39f2-4d20-83d0-bd61ba8ffbc8" InformativeScreenshot="d12fdf8ab8ea74f84fb8996870ea6179.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -514,7 +514,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NSelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item ''Pay period type*''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,200" sap2010:WorkflowViewState.IdRef="NSelectItem_3" InUiElement="{x:Null}" Item="Per week" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" Version="V5">
+            <uix:NSelectItem DisplayName="Select Item ''Pay period type*''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,204" sap2010:WorkflowViewState.IdRef="NSelectItem_3" Item="Per week" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NSelectItem.Items>
                 <scg:List x:TypeArguments="x:String" Capacity="8">
                   <x:String>Select pay period type</x:String>
@@ -540,7 +540,7 @@
                 </uix:TargetAnchorable>
               </uix:NSelectItem.Target>
             </uix:NSelectItem>
-            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into ''Minimum base pay*''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_7" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" SecureText="{x:Null}" Text="600" Timeout="{x:Null}" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''Minimum base pay*''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_7" InteractionMode="SameAsCard" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Text="600" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" DesignTimeRectangle="735, 531, 358, 36" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='minimumAmount' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='minimumAmount' tag='INPUT' type='number' class='form-control' placeholder='Enter minimum base pay' aaname='Minimum base pay* ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="eef411cd-7c9c-41f9-9031-9053e4a3485e" InformativeScreenshot="3841d810a2dcdc66a492f94e22a82d27.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -564,7 +564,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into ''Maximum base pay*''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_8" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" SecureText="{x:Null}" Text="700" Timeout="{x:Null}" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''Maximum base pay*''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_8" InteractionMode="SameAsCard" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Text="700" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" DesignTimeRectangle="1117, 531, 357, 36" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='maximumAmount' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='maximumAmount' tag='INPUT' type='number' class='form-control' placeholder='Enter maximum base pay' aaname='Maximum base pay* ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="6e234385-7652-42b1-b713-a0a7236bdc72" InformativeScreenshot="b97744111f31ad9c11a211e21fa9c592.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -588,7 +588,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Key Qualification''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_11" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Key Qualification''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" CVScreenId="a9dd6700-d281-474a-ad1d-0063755c2aea" CvTextArea="1139, 725, 234, 16" CvTextArgument="Job offer accepted by Candidate" CvType="Text" DesignTimeRectangle="354, 718, 1501, 21" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Key Qualification' parentid='headingThree' tag='H5' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Key Qualification' parentid='headingThree' tag='H5' type='' class='m-0 p-0 fw-semi-bold' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Key Qualification' /&gt;" Guid="c6b2a2d6-0022-435b-9f52-e65b783a981b" InformativeScreenshot="9e9a2da99142065420d9e7eb7dc9f5d8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
                   <uix:TargetAnchorable.Anchors>
@@ -602,7 +602,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''Must have *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_18" InteractionMode="SameAsCard" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Text="Marketing" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''Must have *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,250" sap2010:WorkflowViewState.IdRef="NTypeInto_18" InteractionMode="SameAsCard" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Text="Marketing" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" DesignTimeRectangle="347, 683, 454, 23" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='collapseFour' tag='DIV' /&gt;" Guid="670395e7-5b20-45e2-ae4b-d2b93608696a" InformativeScreenshot="8efeee715fcbb7c38c7e1d7da18643c0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NTypeInto.Target>
@@ -617,7 +617,7 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Test''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_12" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Test''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" CVScreenId="fb7f76ce-3a88-48af-bd06-880b9147e06f" CvElementArea="357, 699, 483, 55" CvTextArea="559, 717, 78, 21" CvTextArgument="Loading..." CvType="Button" DesignTimeRectangle="359, 706, 464, 41" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Marketing' tag='DIV' /&gt;" Guid="ffd7f06b-5637-407c-abdb-bc628192b350" InformativeScreenshot="eb87a3894de716bb2a19ca950dbf4b7a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
@@ -628,17 +628,17 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Test And Learn''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_13" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Test And Learn''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" DesignTimeRectangle="359, 787, 464, 41" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Marketing Analytics' tag='DIV' /&gt;" Guid="24f5743d-7290-49cc-bfeb-ad9e155aca87" InformativeScreenshot="f3f37a8d28daf277a25ce3b02e8d8678.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Test Automation''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_14" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Test Automation''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_14" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" CVScreenId="3f41e3aa-3b84-40b9-8194-a25e567b70e0" CvTextArea="370, 757, 152, 21" CvTextArgument="Marketing Analysis" CvType="Text" DesignTimeRectangle="359, 747, 464, 40" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Marketing Analysis' tag='DIV' /&gt;" Guid="d0e6b4b7-334b-47af-adb2-9ff1351f448c" InformativeScreenshot="ff88ddbab5b271bf58e9840bca80e13d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Continue and Save''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_16" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Continue and Save''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" DesignTimeRectangle="1702, 867, 171, 33" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='myForm' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='myForm' tag='BUTTON' type='' class='btn-shadow btn-wide float-end btn-pill btn-hover-shine btn btn-primary' aaname='Continue and Save' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Continue and Save' /&gt;" Guid="deade44d-3cfe-4614-8251-4e844548a0ff" InformativeScreenshot="cbfaf29c474c5992f719e4cd6dbf3eea.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -647,7 +647,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Confirm &amp; Save as a Dra…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_17" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Confirm &amp; Save as a Dra…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" DesignTimeRectangle="1656, 847, 217, 33" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Confirm &amp;amp; Save as a Draft' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Confirm &amp;amp; Save as a Draft' tag='BUTTON' type='button' class='btn-shadow btn-wide float-end btn-pill btn-hover-shine btn btn-primary' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Confirm &amp;amp; Save as a Draft' /&gt;" Guid="52fe2b90-6926-473b-98c9-cdf3a4ca47c2" InformativeScreenshot="181bc43150f8255ec7b42ac794ba7d50.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -656,8 +656,8 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="452,123" sap2010:WorkflowViewState.IdRef="Delay_1" />
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Publish job''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_18" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="452,127" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Publish job''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_18" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" DesignTimeRectangle="1133, 708, 161, 44" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Publish job' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Publish job' tag='BUTTON' type='button' class='btn-shadow btn-wide btn btn-success btn-lg' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Publish job' /&gt;" Guid="5a556658-9b3a-41da-b832-05890f209acf" InformativeScreenshot="12e2b85059248359f8b98bc5b1f47dad.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -666,7 +666,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''No''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_19" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''No''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_19" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/create-job" DesignTimeRectangle="909, 409, 50, 33" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='No' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='No' tag='BUTTON' type='button' class='me-2 button-dark-custom btn btn-secondary' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='No' /&gt;" Guid="7795a642-eedf-4ab0-bc48-ab2c63ecda6c" InformativeScreenshot="bba6c6a8511cb8eed1677c50904a3c11.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -675,7 +675,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''IMG''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_20" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''IMG''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_20" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/job-list" DesignTimeRectangle="758, 504, 44, 11" DesignTimeScaleFactor="1" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='publish text' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='publish text' tag='IMG' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="3b2f705d-f10c-480d-b2da-34db5e0b1636" InformativeScreenshot="5537719128e063cb71cad7f864d50984.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
                   <uix:TargetAnchorable.PointOffset>
@@ -684,16 +684,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''QA Manager Mobile App''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_21" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/job-list" DesignTimeRectangle="859, 503, 240, 23" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl isleaf='1' tag='H5' /&gt;" FuzzySelectorArgument="&lt;webctrl isleaf='1' tag='H5' type='' class='menu-header-title job-title-details' aaname='QA Manager Mobile App' matching:isleaf='fuzzy' fuzzylevel:isleaf='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='QA Manager Mobile App' /&gt;" Guid="3ca3b1d5-d904-4bce-a347-611531ae3a48" InformativeScreenshot="98a18d0d4b56bee0914806f15a4d4825.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
-                  <uix:TargetAnchorable.PointOffset>
-                    <uix:PointOffset />
-                  </uix:TargetAnchorable.PointOffset>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'path'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_22" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'path'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_22" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/job-list" CVScreenId="bad23e40-f8a0-45f0-aead-c76e0ded2fb3" ContentHash="X8yOByl_hkGMQGVjVieaDw" CvElementArea="1758, 112, 21, 22" CvType="ArrowButton" DesignTimeRectangle="1765, 121, 8, 5" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;svg&amp;gt;path' tag='path' /&gt;" Guid="f7f4c74c-e107-406e-ba5d-97ab4687abd0" InformativeScreenshot="7abde6be729a2b75d24ef95c47b69350.png" Reference="-Aa92v0zR0epOoMlu-QWWw/qqt7SyjB2EaGLBZFSLWuRw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.PointOffset>
@@ -702,18 +693,18 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'Logout'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_23" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Logout'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,198" sap2010:WorkflowViewState.IdRef="NClick_23" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="884b0def-2cec-4b1b-bf19-bb9844f274d5" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/job-list" CVScreenId="05c7ba7f-eec4-4908-8156-dbdc07588b95" ContentHash="Navcgn3AXkKHo3BhdbeyxA" CvElementArea="1682, 174, 77, 40" CvTextArea="1696, 186, 49, 17" CvTextArgument="Logout" CvType="Button" DesignTimeRectangle="1685, 177, 71, 33" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Logout' tag='BUTTON' type='button' /&gt;" Guid="1dfb095d-9411-4ac8-a249-883bf5d31301" InformativeScreenshot="eefbbdf809f76bfef6138d63e04f325e.png" Reference="-Aa92v0zR0epOoMlu-QWWw/jyxsyWRV8Ue1-eTBRFCN7A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" ConnectionId="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Use Browser Chrome: OpenWorX" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,6674" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InUiElement="{x:Null}" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" IsIncognito="False" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" OutUiElement="{x:Null}" ScopeGuid="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}" Version="V2" WebDriverMode="{x:Null}" WindowResize="Maximize">
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Use Browser Chrome: OpenWorX" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,10929" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" IsIncognito="False" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V2" WindowResize="Maximize">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,6548" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,10731" sap2010:WorkflowViewState.IdRef="Sequence_7">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Name="phone" />
                       <Variable x:TypeArguments="x:String" Name="randomEmail" />
@@ -730,7 +721,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Not a member yet?''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_26" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Not a member yet?''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_26" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/login" CVScreenId="ef4a69a2-eeaa-4698-bde5-ae6b33c51500" CvElementArea="1476, 524, 188, 37" CvTextArea="1493, 534, 153, 22" CvTextArgument="Not a member yet?" CvType="Button" DesignTimeRectangle="1478, 526, 185, 34" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Not a member yet?' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Not a member yet?' tag='A' type='' class='btn-text me-1 btn btn-primary btn-lg' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Not a member yet?' /&gt;" Guid="f9aeb3aa-a467-4ac4-9bb2-2a66ccd8e1d4" InformativeScreenshot="a4ad1cd79b86351a3fb1e7c88970393f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector, CV" Version="V6">
                           <uix:TargetAnchorable.PointOffset>
@@ -739,7 +730,7 @@
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''I am looking for a new …''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_27" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''I am looking for a new …''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_27" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/registration" DesignTimeRectangle="185, 651, 361, 20" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='role-card-description' aaname='I am looking for a new job or opportunity.' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='I am looking for a new job or opportunity.' /&gt;" Guid="5f48401b-8b8c-4752-8bf4-2d370d856280" InformativeScreenshot="5ebeb15942e504a8b6338c0539bc87d7.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
                           <uix:TargetAnchorable.PointOffset>
@@ -748,7 +739,7 @@
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into ''First Name *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_11" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" SecureText="{x:Null}" Text="Amar" Timeout="{x:Null}" Version="V5">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''First Name *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_11" InteractionMode="SameAsCard" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Text="Amar" Version="V5">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/registration" CVScreenId="ef4a69a2-eeaa-4698-bde5-ae6b33c51500" CvTextArea="198, 605, 427, 57" CvTextArgument="What's Next" CvType="Text" DesignTimeRectangle="168, 611, 468, 38" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='firstName' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='firstName' tag='INPUT' type='text' class='form-control placeholder-name ' placeholder='Enter First Name' aaname='First Name *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="4f5adeb3-b4eb-4372-83ad-d1b50e386719" InformativeScreenshot="81fdc3ffe56006d1bad1b2dbcd9a9f00.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
                           <uix:TargetAnchorable.Anchors>
@@ -772,7 +763,7 @@
                         </uix:VerifyExecutionTypeIntoOptions>
                       </uix:NTypeInto.VerifyOptions>
                     </uix:NTypeInto>
-                    <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into ''Last Name *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_12" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" SecureText="{x:Null}" Text="Yelmar" Timeout="{x:Null}" Version="V5">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''Last Name *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_12" InteractionMode="SameAsCard" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Text="Yelmar" Version="V5">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/registration" CVScreenId="ef4a69a2-eeaa-4698-bde5-ae6b33c51500" CvTextArea="838, 619, 212, 16" CvTextArgument="Welcome to our Career Portal" CvType="Text" DesignTimeRectangle="660, 611, 468, 38" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='lastName' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='lastName' tag='INPUT' type='text' class='form-control placeholder-name ' placeholder='Enter Last Name' aaname='Last Name *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="53c78713-5bf3-4cbd-9fc9-0ee1eaab50b0" InformativeScreenshot="197272c3e48aa1df157a05aa4f9ea9d5.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
                           <uix:TargetAnchorable.Anchors>
@@ -796,7 +787,7 @@
                         </uix:VerifyExecutionTypeIntoOptions>
                       </uix:NTypeInto.VerifyOptions>
                     </uix:NTypeInto>
-                    <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_5">
+                    <Assign sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_5">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">[randomEmail]</OutArgument>
                       </Assign.To>
@@ -804,7 +795,7 @@
                         <InArgument x:TypeArguments="x:String">["test" &amp; Now.Ticks.ToString &amp; "@test.com"]</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into ''Email *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_14" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" SecureText="{x:Null}" Text="[randomEmail]" Timeout="{x:Null}" Version="V5">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''Email *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_14" InteractionMode="SameAsCard" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Text="[randomEmail]" Version="V5">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/registration" DesignTimeRectangle="168, 693, 468, 38" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='email' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='email' class='form-control placeholder-name ' placeholder='Enter Email' aaname='Email *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="446ecc7d-e37c-44b4-bcce-78abb6e7f8f1" InformativeScreenshot="404a2f584df36a9bc156fe0f396ee8ba.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6">
                           <uix:TargetAnchorable.Anchors>
@@ -828,7 +819,7 @@
                         </uix:VerifyExecutionTypeIntoOptions>
                       </uix:NTypeInto.VerifyOptions>
                     </uix:NTypeInto>
-                    <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_9">
+                    <Assign sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_9">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">[phone]</OutArgument>
                       </Assign.To>
@@ -838,7 +829,7 @@ New Random().Next(200, 999).ToString &amp; "-" &amp;
 New Random().Next(1000, 9999).ToString]</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into ''Phone *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_15" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" SecureText="{x:Null}" Text="[phone]" Timeout="{x:Null}" Version="V5">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''Phone *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_15" InteractionMode="SameAsCard" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Text="[phone]" Version="V5">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/registration" DesignTimeRectangle="660, 693, 468, 38" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='phoneNumber' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='phoneNumber' tag='INPUT' type='text' class='form-control placeholder-name ' placeholder='Enter Phone Number' aaname='Phone *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="edcbdc2f-2a0d-408e-8de1-2d7239c5aa87" InformativeScreenshot="5127b178290459d43cb73aeac47f3f99.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6">
                           <uix:TargetAnchorable.Anchors>
@@ -862,7 +853,7 @@ New Random().Next(1000, 9999).ToString]</InArgument>
                         </uix:VerifyExecutionTypeIntoOptions>
                       </uix:NTypeInto.VerifyOptions>
                     </uix:NTypeInto>
-                    <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Create account''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_34" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Create account''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_34" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/registration" DesignTimeRectangle="972, 771, 156, 34" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='' class=' btn-text btn btn-primary btn-lg' aaname='Create account' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Create account' /&gt;" Guid="87d01b2e-2fe7-45e5-9bc4-10f7727b6351" InformativeScreenshot="26e646808fb56e204d3112203c7551c5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
                           <uix:TargetAnchorable.PointOffset>
@@ -871,7 +862,7 @@ New Random().Next(1000, 9999).ToString]</InArgument>
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <ui:HttpClient AcceptFormat="JSON" AuthenticationType="None" Body="{x:Null}" BodyFormat="application/xml" ClientCertificate="{x:Null}" ClientCertificatePassword="{x:Null}" ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" ContinueOnError="{x:Null}" DisplayName="HTTP Request (legacy)" EnableSSLVerification="True" EndPoint="https://panther-api-prod.azurewebsites.net/api/Common/GetCommonDropdown?searchText=phoneotp&amp;commonId=1" FileAttachments="{x:Null}" sap:VirtualizedContainerService.HintSize="416,107" sap2010:WorkflowViewState.IdRef="HttpClient_1" Method="GET" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" ResourcePath="{x:Null}" ResponseAttachment="{x:Null}" ResponseHeaders="{x:Null}" Result="[responseString]" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" StatusCode="{x:Null}" TimeoutMS="6000" Username="{x:Null}">
+                    <ui:HttpClient Body="{x:Null}" ClientCertificate="{x:Null}" ClientCertificatePassword="{x:Null}" ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" ContinueOnError="{x:Null}" FileAttachments="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" ResourcePath="{x:Null}" ResponseAttachment="{x:Null}" ResponseHeaders="{x:Null}" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" StatusCode="{x:Null}" Username="{x:Null}" AcceptFormat="JSON" AuthenticationType="None" BodyFormat="application/xml" DisplayName="HTTP Request (legacy)" EnableSSLVerification="True" EndPoint="https://panther-api-prod.azurewebsites.net/api/Common/GetCommonDropdown?searchText=phoneotp&amp;commonId=1" sap:VirtualizedContainerService.HintSize="416,103" sap2010:WorkflowViewState.IdRef="HttpClient_1" Method="GET" Result="[responseString]" TimeoutMS="6000">
                       <ui:HttpClient.Attachments>
                         <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
                       </ui:HttpClient.Attachments>
@@ -888,9 +879,9 @@ New Random().Next(1000, 9999).ToString]</InArgument>
                         <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
                       </ui:HttpClient.UrlSegments>
                     </ui:HttpClient>
-                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="{x:Null}" Message="[&quot;API Response = &quot; &amp; responseString]" />
-                    <ui:DeserializeJson x:TypeArguments="njl:JObject" JsonSample="{x:Null}" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="416,178" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_1" JsonObject="[jsonObject]" JsonString="[responseString]" Settings="{x:Null}" />
-                    <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_6">
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;API Response = &quot; &amp; responseString]" />
+                    <ui:DeserializeJson x:TypeArguments="njl:JObject" JsonSample="{x:Null}" Settings="{x:Null}" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="416,174" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_1" JsonObject="[jsonObject]" JsonString="[responseString]" />
+                    <Assign sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_6">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">[currentEmail]</OutArgument>
                       </Assign.To>
@@ -898,7 +889,7 @@ New Random().Next(1000, 9999).ToString]</InArgument>
                         <InArgument x:TypeArguments="x:String">[randomEmail]</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_7">
+                    <Assign sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_7">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">[otpRaw]</OutArgument>
                       </Assign.To>
@@ -909,8 +900,8 @@ Select(Function(x) x("name").ToString).
 FirstOrDefault()]</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="{x:Null}" Message="[&quot;OTP not found yet for &quot; &amp; currentEmail]" />
-                    <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_8">
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;OTP not found yet for &quot; &amp; currentEmail]" />
+                    <Assign sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_8">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">[otpValue]</OutArgument>
                       </Assign.To>
@@ -918,8 +909,8 @@ FirstOrDefault()]</InArgument>
                         <InArgument x:TypeArguments="x:String">[System.Text.RegularExpressions.Regex.Match(otpRaw, "\d{6}").Value]</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="{x:Null}" Message="[&quot;OTP for &quot; &amp; currentEmail &amp; &quot; = &quot; &amp; otpValue]" />
-                    <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="True" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into ''INPUT mobile-0''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,302" sap2010:WorkflowViewState.IdRef="NTypeInto_16" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" SecureText="{x:Null}" Text="[otpValue]" Timeout="{x:Null}" Version="V5">
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;OTP for &quot; &amp; currentEmail &amp; &quot; = &quot; &amp; otpValue]" />
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="True" DisplayName="Type Into ''INPUT mobile-0''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,298" sap2010:WorkflowViewState.IdRef="NTypeInto_16" InteractionMode="SameAsCard" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Text="[otpValue]" Version="V5">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/registration" CVScreenId="f89bfd19-cab2-49fa-9de7-8d9c6c204bc0" CvElementArea="741, 256, 65, 51" CvType="InputBox" DesignTimeRectangle="743, 257, 62, 49" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='mobile-0' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='mobile-0' tag='INPUT' type='text' class='form-control placeholder-name text-center form-control' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="6f14042d-7d6d-4224-9456-f3a097cf4e98" InformativeScreenshot="6561cd3711454b765260694efa807db2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector, CV" Version="V6">
                           <uix:TargetAnchorable.PointOffset>
@@ -935,7 +926,7 @@ FirstOrDefault()]</InArgument>
                         </uix:VerifyExecutionTypeIntoOptions>
                       </uix:NTypeInto.VerifyOptions>
                     </uix:NTypeInto>
-                    <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''OK''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_35" InUiElement="{x:Null}" InteractionMode="SameAsCard" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''OK''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_35" InteractionMode="SameAsCard" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
                       <uix:NClick.KeyModifiers>
                         <InArgument x:TypeArguments="uix:NKeyModifiers" />
                       </uix:NClick.KeyModifiers>
@@ -947,7 +938,7 @@ FirstOrDefault()]</InArgument>
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into ''DIV''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_17" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" SecureText="{x:Null}" Text="maynard" Timeout="{x:Null}" Version="V5">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''DIV''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_17" InteractionMode="SameAsCard" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Text="maynard" Version="V5">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net" DesignTimeRectangle="589, 353, 180, 25" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class=' css-19bb58m' tag='DIV' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="9458f665-bea7-49dd-9960-067990ee5862" InformativeScreenshot="1c143818c612fca84b75abea9376feb1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
                           <uix:TargetAnchorable.PointOffset>
@@ -966,7 +957,7 @@ FirstOrDefault()]</InArgument>
                         </uix:VerifyExecutionTypeIntoOptions>
                       </uix:NTypeInto.VerifyOptions>
                     </uix:NTypeInto>
-                    <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Maynard, Massachusetts''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_36" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Maynard, Massachusetts''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_36" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net" DesignTimeRectangle="578, 471, 239, 37" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Maynard, Massachusetts' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Maynard, Massachusetts' tag='DIV' type='' class=' css-10wo9uf-option' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Maynard, Massachusetts' /&gt;" Guid="ce800d4a-ce63-4d82-ac5b-563c011faab9" InformativeScreenshot="b221db696f50fab23ddbabcc38adb168.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
                           <uix:TargetAnchorable.PointOffset>
@@ -975,7 +966,7 @@ FirstOrDefault()]</InArgument>
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NCheck Action="Check" AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Check/Uncheck ''Inputbox''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,199" sap2010:WorkflowViewState.IdRef="NCheck_3" InUiElement="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" Version="V5">
+                    <uix:NCheck Action="Check" DisplayName="Check/Uncheck ''Inputbox''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,199" sap2010:WorkflowViewState.IdRef="NCheck_3" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
                       <uix:NCheck.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net" CVScreenId="f89bfd19-cab2-49fa-9de7-8d9c6c204bc0" DesignTimeRectangle="578, 593, 14, 14" DesignTimeScaleFactor="1" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='jobType_1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='jobType_1' tag='INPUT' type='checkbox' class='form-check-input' aaname='Full-time' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="d509826a-6bd4-44b6-84f0-5443d6f5be60" InformativeScreenshot="aad7f3ac051f113ccc340400be4d7e4c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6">
                           <uix:TargetAnchorable.Anchors>
@@ -989,7 +980,7 @@ FirstOrDefault()]</InArgument>
                         </uix:TargetAnchorable>
                       </uix:NCheck.Target>
                     </uix:NCheck>
-                    <uix:NCheck Action="Check" AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Check/Uncheck ''Inputbox''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,199" sap2010:WorkflowViewState.IdRef="NCheck_4" InUiElement="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" Version="V5">
+                    <uix:NCheck Action="Check" DisplayName="Check/Uncheck ''Inputbox''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,199" sap2010:WorkflowViewState.IdRef="NCheck_4" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
                       <uix:NCheck.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net" CVScreenId="f89bfd19-cab2-49fa-9de7-8d9c6c204bc0" DesignTimeRectangle="775, 593, 14, 14" DesignTimeScaleFactor="1" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='workSchedule_1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='workSchedule_1' tag='INPUT' type='checkbox' class='form-check-input' aaname='Weekdays only' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="1696f84c-48fd-4cd2-98e7-2186498effc2" InformativeScreenshot="d8d7f291b479399fb3d1268c58652c32.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6">
                           <uix:TargetAnchorable.Anchors>
@@ -1003,7 +994,7 @@ FirstOrDefault()]</InArgument>
                         </uix:TargetAnchorable>
                       </uix:NCheck.Target>
                     </uix:NCheck>
-                    <uix:NCheck Action="Check" AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Check/Uncheck ''Inputbox''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,199" sap2010:WorkflowViewState.IdRef="NCheck_2" InUiElement="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" Version="V5">
+                    <uix:NCheck Action="Check" DisplayName="Check/Uncheck ''Inputbox''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,199" sap2010:WorkflowViewState.IdRef="NCheck_2" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
                       <uix:NCheck.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net" CVScreenId="f89bfd19-cab2-49fa-9de7-8d9c6c204bc0" DesignTimeRectangle="973, 593, 14, 14" DesignTimeScaleFactor="1" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='shifts_1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='shifts_1' tag='INPUT' type='checkbox' class='form-check-input' aaname='Day/1st shift' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="0f4a8a6b-a439-4cd6-8a34-8f89934f0dcc" InformativeScreenshot="44d82e9e7e23c857bf9fa2dc47eee2f4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6">
                           <uix:TargetAnchorable.Anchors>
@@ -1017,7 +1008,7 @@ FirstOrDefault()]</InArgument>
                         </uix:TargetAnchorable>
                       </uix:NCheck.Target>
                     </uix:NCheck>
-                    <uix:NCheck Action="Check" AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Check/Uncheck ''unchecked''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,199" sap2010:WorkflowViewState.IdRef="NCheck_1" InUiElement="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" Version="V5">
+                    <uix:NCheck Action="Check" DisplayName="Check/Uncheck ''unchecked''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,199" sap2010:WorkflowViewState.IdRef="NCheck_1" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
                       <uix:NCheck.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net" DesignTimeRectangle="1170, 593, 14, 14" DesignTimeScaleFactor="1" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='workType_1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='workType_1' tag='INPUT' type='checkbox' class='form-check-input' aaname='Remote' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="8db2e37b-91e0-4ce6-b1a7-9b1b4455eda6" InformativeScreenshot="4ca06038825b12c4ff243c3449665956.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6">
                           <uix:TargetAnchorable.Anchors>
@@ -1031,7 +1022,7 @@ FirstOrDefault()]</InArgument>
                         </uix:TargetAnchorable>
                       </uix:NCheck.Target>
                     </uix:NCheck>
-                    <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''svg''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_28" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''svg''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_28" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net" DesignTimeRectangle="795, 770, 20, 20" DesignTimeScaleFactor="1" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;svg' idx='2' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='css-8mmkcg' tag='svg' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="7ec64850-d00c-47bb-a301-3aeccff5cbd6" InformativeScreenshot="4a3c95a0beed2db9db3d274771b7d874.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
                           <uix:TargetAnchorable.PointOffset>
@@ -1040,7 +1031,7 @@ FirstOrDefault()]</InArgument>
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Per day''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_29" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Per day''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_29" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net" DesignTimeRectangle="585, 848, 224, 37" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Per day' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Per day' tag='DIV' type='' class=' css-10wo9uf-option' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Per day' /&gt;" Guid="f06735a2-c735-4a76-a01c-78e48035b8bc" InformativeScreenshot="b2d1a9cb2cea9a4362c46fbf2888dbbd.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
                           <uix:TargetAnchorable.PointOffset>
@@ -1049,7 +1040,7 @@ FirstOrDefault()]</InArgument>
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NTypeInto ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickBeforeMode="Single" ClipboardMode="Never" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into ''INPUT minPay''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_13" InUiElement="{x:Null}" InteractionMode="SameAsCard" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" SecureText="{x:Null}" Text="50" Timeout="{x:Null}" Version="V5">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''INPUT minPay''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_13" InteractionMode="SameAsCard" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Text="50" Version="V5">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net" CVScreenId="f89bfd19-cab2-49fa-9de7-8d9c6c204bc0" CvTextArea="878, 753, 167, 21" CvTextArgument="Login Here Create" CvType="Text" DesignTimeRectangle="883, 761, 205, 35" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='minPay' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='minPay' tag='INPUT' type='number' class='field-input placeholder-text form-control input-text form-control' placeholder='Enter minimum base pay' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="60fb6192-449b-4cb1-b0a2-3ae6c9371601" InformativeScreenshot="914df4a5a2484b393db008a8d2021d04.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector, CV" Version="V6">
                           <uix:TargetAnchorable.PointOffset>
@@ -1068,7 +1059,7 @@ FirstOrDefault()]</InArgument>
                         </uix:VerifyExecutionTypeIntoOptions>
                       </uix:NTypeInto.VerifyOptions>
                     </uix:NTypeInto>
-                    <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Save''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_30" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Save''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_30" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net" DesignTimeRectangle="1286, 815, 57, 30" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='me-2 save-btn btn btn-secondary' aaname='Save' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Save' /&gt;" Guid="652a7b3e-2c1f-4d8e-94d8-84f1f0bf9c98" InformativeScreenshot="fe54f0d021f30d33e0070d8837f59177.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
                           <uix:TargetAnchorable.PointOffset>
@@ -1077,16 +1068,343 @@ FirstOrDefault()]</InArgument>
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Remind me later''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_31" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Update''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_31" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
                       <uix:NClick.Target>
-                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net" CVScreenId="f89bfd19-cab2-49fa-9de7-8d9c6c204bc0" CvElementArea="659, 665, 468, 40" CvType="InputBox" DesignTimeRectangle="858, 660, 139, 34" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Remind me later' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Remind me later' tag='BUTTON' type='button' class='btn btn-lg btn-link ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Remind me later' /&gt;" Guid="19241272-36e7-413f-b65f-9129e1340205" InformativeScreenshot="26c6bc734c984bacb74ebd523621a20e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net" DesignTimeRectangle="1001, 652, 75, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Update' tag='BUTTON' type='button' /&gt;" Guid="1dfc271c-ab0b-4b2a-b6fc-048dd525d379" InformativeScreenshot="8bcd144e7d0633cf4127fa3f4e51f493.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Add''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_37" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="1853, 413, 31, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Add' tag='LABEL' /&gt;" Guid="158867a1-4976-45aa-86e6-d1fdd9700eef" InformativeScreenshot="6e5c93849f8c0dee5367ff652daf5f4a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Search to select''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_38" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="633, 275, 281, 19" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl type='' class=' css-19bb58m' parentid='skills' tag='DIV' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="dd3d8e14-6c3b-4b84-9ee9-70c78fe88b8f" InformativeScreenshot="d785d9a2ddcff2070ced532447bd14b9.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="623, 241, 41, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Skills ' tag='LABEL' type='' class='fw-semi-bold form-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Skills *' /&gt;" Guid="84186cc2-bbb9-4432-8ae8-6b8dcd6c5fd9" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''DIV''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_20" InteractionMode="SameAsCard" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Text="managerial" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="633, 273, 281, 23" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='skills' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class=' css-19bb58m' parentid='skills' tag='DIV' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="3b1753dd-1de7-4676-9833-28cf099e94e9" InformativeScreenshot="7d792a6a71994162e2be79f6bab3bb24.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Managerial Communicatio…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_40" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="623, 365, 319, 33" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Managerial Communications' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Managerial Communications' tag='DIV' type='' class=' css-10wo9uf-option' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Managerial Communications' /&gt;" Guid="090c97c7-5604-4233-ab42-9752025e703a" InformativeScreenshot="55fa7272014423f43e297a648be400a8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
                           <uix:TargetAnchorable.PointOffset>
                             <uix:PointOffset />
                           </uix:TargetAnchorable.PointOffset>
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''path''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_32" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Managerial Finance''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_41" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="623, 432, 334, 33" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Managerial Finance' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Managerial Finance' tag='DIV' type='' class=' css-10wo9uf-option' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Managerial Finance' /&gt;" Guid="8c3fd383-4486-4d30-bfda-9195ad62c1d2" InformativeScreenshot="edd64503ab20d60193023e62516d7bdb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Managerial Science''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_42" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="623, 521, 334, 33" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Managerial Science' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Managerial Science' tag='DIV' type='' class=' css-10wo9uf-option' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Managerial Science' /&gt;" Guid="8050772e-78e9-4bba-b081-733e3f10ef71" InformativeScreenshot="ff98b21af269de4bdacd3280593287fe.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Save''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_43" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="1197, 510, 52, 27" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='me-2 save-btn btn btn-secondary' aaname='Save' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Save' /&gt;" Guid="80a323d7-26dd-436c-ae68-ad4f8f984a41" InformativeScreenshot="3509a5cda8eebc5cb1984245858f75a1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Add''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_44" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/login" DesignTimeRectangle="1049, 355, 30, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Add' idx='2' tag='LABEL' /&gt;" Guid="093b3f95-2118-4706-9f5b-6610b12e669c" InformativeScreenshot="23622bd28f8d47a1c5b3ee7d774a6121.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''Job title *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_21" InteractionMode="SameAsCard" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Text="Manager" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="623, 295, 216, 31" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='jobTitle' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='jobTitle' tag='INPUT' type='text' class='field-input placeholder-text form-control ' placeholder='Enter job title' aaname='Job title *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="ea62f235-0c4a-4618-b20d-2d9d4dfec570" InformativeScreenshot="8870610c6373bdeaad98df096b120666.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="623, 268, 60, 19" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Job title ' parentid='0' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Job title ' parentid='0' tag='LABEL' type='' class='fw-semi-bold form-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Job title *' /&gt;" Guid="c61ff215-0345-4eb1-98d4-5306086b3c53" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NCheck Action="Check" DisplayName="Check/Uncheck ''Currently working''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195" sap2010:WorkflowViewState.IdRef="NCheck_5" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
+                      <uix:NCheck.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="623, 419, 13, 12" DesignTimeScaleFactor="0.8999999761581421" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='currentlyWorking' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='currentlyWorking' tag='INPUT' type='checkbox' class='form-check-input' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="70989f12-6daa-4611-afe7-b2ce92afc065" InformativeScreenshot="f0064a16153dc60faf8f84b1b05ada55.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="642, 415, 114, 19" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Currently working' parentid='0' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Currently working' parentid='0' tag='LABEL' type='' class='fw-semi-bold form-check-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Currently working' /&gt;" Guid="62357a93-a570-4048-b230-6d2a03282e0a" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NCheck.Target>
+                    </uix:NCheck>
+                    <uix:NSelectItem DisplayName="Select Item ''Select month''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,200" sap2010:WorkflowViewState.IdRef="NSelectItem_4" Item="August" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
+                      <uix:NSelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="13">
+                          <x:String>Select month</x:String>
+                          <x:String>January</x:String>
+                          <x:String>February</x:String>
+                          <x:String>March</x:String>
+                          <x:String>April</x:String>
+                          <x:String>May</x:String>
+                          <x:String>June</x:String>
+                          <x:String>July</x:String>
+                          <x:String>August</x:String>
+                          <x:String>September</x:String>
+                          <x:String>October</x:String>
+                          <x:String>November</x:String>
+                          <x:String>December</x:String>
+                        </scg:List>
+                      </uix:NSelectItem.Items>
+                      <uix:NSelectItem.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="623, 470, 216, 31" DesignTimeScaleFactor="0.8999999761581421" ElementType="DropDown" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='monthList' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='monthList' tag='SELECT' type='' class='form-control  form-select' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f0f813a6-450f-4770-9134-3c3d7a76055e" InformativeScreenshot="a42bd13dc256cd1065bdd686f64bc18f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NSelectItem.Target>
+                    </uix:NSelectItem>
+                    <uix:NSelectItem DisplayName="Select Item ''Select year''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,200" sap2010:WorkflowViewState.IdRef="NSelectItem_5" Item="2020" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
+                      <uix:NSelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="82">
+                          <x:String>Select year</x:String>
+                          <x:String>1970</x:String>
+                          <x:String>1971</x:String>
+                          <x:String>1972</x:String>
+                          <x:String>1973</x:String>
+                          <x:String>1974</x:String>
+                          <x:String>1975</x:String>
+                          <x:String>1976</x:String>
+                          <x:String>1977</x:String>
+                          <x:String>1978</x:String>
+                          <x:String>1979</x:String>
+                          <x:String>1980</x:String>
+                          <x:String>1981</x:String>
+                          <x:String>1982</x:String>
+                          <x:String>1983</x:String>
+                          <x:String>1984</x:String>
+                          <x:String>1985</x:String>
+                          <x:String>1986</x:String>
+                          <x:String>1987</x:String>
+                          <x:String>1988</x:String>
+                          <x:String>1989</x:String>
+                          <x:String>1990</x:String>
+                          <x:String>1991</x:String>
+                          <x:String>1992</x:String>
+                          <x:String>1993</x:String>
+                          <x:String>1994</x:String>
+                          <x:String>1995</x:String>
+                          <x:String>1996</x:String>
+                          <x:String>1997</x:String>
+                          <x:String>1998</x:String>
+                          <x:String>1999</x:String>
+                          <x:String>2000</x:String>
+                          <x:String>2001</x:String>
+                          <x:String>2002</x:String>
+                          <x:String>2003</x:String>
+                          <x:String>2004</x:String>
+                          <x:String>2005</x:String>
+                          <x:String>2006</x:String>
+                          <x:String>2007</x:String>
+                          <x:String>2008</x:String>
+                          <x:String>2009</x:String>
+                          <x:String>2010</x:String>
+                          <x:String>2011</x:String>
+                          <x:String>2012</x:String>
+                          <x:String>2013</x:String>
+                          <x:String>2014</x:String>
+                          <x:String>2015</x:String>
+                          <x:String>2016</x:String>
+                          <x:String>2017</x:String>
+                          <x:String>2018</x:String>
+                          <x:String>2019</x:String>
+                          <x:String>2020</x:String>
+                          <x:String>2021</x:String>
+                          <x:String>2022</x:String>
+                          <x:String>2023</x:String>
+                          <x:String>2024</x:String>
+                          <x:String>2025</x:String>
+                          <x:String>2026</x:String>
+                          <x:String>2027</x:String>
+                          <x:String>2028</x:String>
+                          <x:String>2029</x:String>
+                          <x:String>2030</x:String>
+                          <x:String>2031</x:String>
+                          <x:String>2032</x:String>
+                          <x:String>2033</x:String>
+                          <x:String>2034</x:String>
+                          <x:String>2035</x:String>
+                          <x:String>2036</x:String>
+                          <x:String>2037</x:String>
+                          <x:String>2038</x:String>
+                          <x:String>2039</x:String>
+                          <x:String>2040</x:String>
+                          <x:String>2041</x:String>
+                          <x:String>2042</x:String>
+                          <x:String>2043</x:String>
+                          <x:String>2044</x:String>
+                          <x:String>2045</x:String>
+                          <x:String>2046</x:String>
+                          <x:String>2047</x:String>
+                          <x:String>2048</x:String>
+                          <x:String>2049</x:String>
+                          <x:String>2050</x:String>
+                        </scg:List>
+                      </uix:NSelectItem.Items>
+                      <uix:NSelectItem.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="860, 470, 216, 31" DesignTimeScaleFactor="0.8999999761581421" ElementType="DropDown" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='yearList' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='yearList' tag='SELECT' type='' class='form-control  form-select' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="da0bf81e-cdb8-48cf-8377-d02a66b074cc" InformativeScreenshot="d63d89e1ee72854506714f67b0b99179.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NSelectItem.Target>
+                    </uix:NSelectItem>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Save''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_45" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="1197, 719, 52, 27" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='0' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='0' tag='BUTTON' type='button' class='me-2 save-btn btn btn-secondary' aaname='Save' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Save' /&gt;" Guid="472df0b1-6304-4fd1-8e60-0d9a2a2a6372" InformativeScreenshot="755723524cbc5bd8d3debada3ec423e2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Add''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_46" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="1853, 555, 31, 14" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Add' idx='3' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Add' type='' tag='LABEL' class='link-text form-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Add' /&gt;" Guid="54989c1e-a802-448e-81b1-c47da4912e68" InformativeScreenshot="153a57bb66456cbde8dd735eec39972c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''svg''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_47" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="813, 303, 18, 18" DesignTimeScaleFactor="0.8999999761581421" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;svg' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' class='css-8mmkcg' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b0be98e6-3734-4a50-83a7-c335233dd48b" InformativeScreenshot="883dd10bd37d9ba507a03d6f68c9e294.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Bachelor's Degree''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_48" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="623, 425, 201, 34" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Bachelor&amp;apos;s Degree' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Bachelor&amp;apos;s Degree' tag='DIV' type='' class=' css-10wo9uf-option' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Bachelor&amp;apos;s Degree' /&gt;" Guid="e7421616-975c-4662-8fe3-d4d8850bcadd" InformativeScreenshot="d81f3c0778c5c77302fbd2eadc584227.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''svg''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_49" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="1049, 303, 18, 18" DesignTimeScaleFactor="0.8999999761581421" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;svg' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' class='css-8mmkcg' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="8b386ac5-b1f7-4579-b141-2ef69efa83cf" InformativeScreenshot="65fe215ecff516ced06bd27e1dc2a8b4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Project Management''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_50" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="860, 378, 201, 34" DesignTimeScaleFactor="0.8999999761581421" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Project Management' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Project Management' tag='DIV' type='' class=' css-10wo9uf-option' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Project Management' /&gt;" Guid="e44831c6-8e2f-4f08-916e-41c1e5a4bc2d" InformativeScreenshot="2edcc46398617fad37593cb974563af8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into ''School *''" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_22" InteractionMode="SameAsCard" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Text="XYZ" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="1097, 295, 216, 31" DesignTimeScaleFactor="0.8999999761581421" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='school' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='school' tag='INPUT' type='text' class='field-input placeholder-text form-control' placeholder='Enter school' aaname='School *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="be8be38c-6435-41a5-a2a6-d1b4061ea2fb" InformativeScreenshot="289d29b0192d9020395e246dd1a1f535.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="FuzzySelector" Version="V6">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="1097, 268, 51, 19" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='School' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='School' tag='LABEL' type='' class='fw-semi-bold form-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='School *' /&gt;" Guid="f886ad2c-392d-4d8c-84db-646243b5344e" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Save''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_51" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="1197, 591, 52, 27" DesignTimeScaleFactor="0.8999999761581421" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Save' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Save' tag='BUTTON' type='button' class='me-2 save-btn btn btn-secondary' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Save' /&gt;" Guid="4ae93476-d047-412a-bf2d-df93c4120a8e" InformativeScreenshot="eb36704f0064cae4ba11125fe9e57695.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Jobs''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_52" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net/profile" DesignTimeRectangle="22, 299, 68, 15" DesignTimeScaleFactor="0.8999999761581421" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='side-navigation-panel-select-option-wrap' idx='3' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='side-navigation-panel-select-option-wrap' type='' tag='SPAN' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Jobs' /&gt;" Guid="dc19a9db-03db-4910-8d12-a29a7596958e" InformativeScreenshot="3cf332f204084c6c2c55fae8d9db5ba6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
+                          <uix:TargetAnchorable.PointOffset>
+                            <uix:PointOffset />
+                          </uix:TargetAnchorable.PointOffset>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''path''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_32" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net" DesignTimeRectangle="1786, 173, 8, 5" DesignTimeScaleFactor="1" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;svg&amp;gt;path' tag='path' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='path' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="a52a1d48-d09f-4a31-becb-7c0daa7c8929" InformativeScreenshot="acd440e0adcccd44922c88f68ded2fc0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
                           <uix:TargetAnchorable.PointOffset>
@@ -1095,7 +1413,7 @@ FirstOrDefault()]</InArgument>
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click ''Logout''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_33" InUiElement="{x:Null}" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Timeout="{x:Null}" UnblockInput="{x:Null}" Version="V5">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Logout''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_33" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ee7f4c28-63d9-4255-8782-22c7afba2677" Version="V5">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="pantherportal-prod.azurewebsites.net" DesignTimeRectangle="1705, 229, 72, 33" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Logout' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Logout' tag='BUTTON' type='button' class='btn-pill btn-shadow btn-shine btn btn-focus' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Logout' /&gt;" Guid="38ddf724-b9b7-42f7-b29f-2fe6706322ca" InformativeScreenshot="38f8c73264a4bfc579554d50edebecc5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='OpenWorX' /&gt;" SearchSteps="Selector" Version="V6">
                           <uix:TargetAnchorable.PointOffset>
