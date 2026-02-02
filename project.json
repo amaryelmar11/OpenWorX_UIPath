@@ -1,5 +1,5 @@
 {
-  "name": "OpenWorX_E2E_23_Jan",
+  "name": "OpenWorX_E2E_29_Jan",
   "projectId": "49f72963-0d72-429f-a1cc-808201da799b",
   "description": "Test Automation Project",
   "main": "Main.xaml",
@@ -14,7 +14,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "26.0.182.0",
-  "projectVersion": "1.0.222845432",
+  "projectVersion": "1.0.223390339",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -53,21 +53,21 @@
         "fileName": "TC_Login_Users.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "16c32c27-1472-407f-9d5a-5e14916b4815",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "TC_Candidate_Registration_RandomData.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "f8385e70-a88d-4c8c-8125-4717a5565626",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "TC_Job_Post_DynamicData.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "d07ee6cc-4ccc-451e-a7be-f73c5425fbbc",
         "dataVariationFilePath": ".variations\\Login_Validations_Sheet1.json",
         "testCaseType": "TestCase",
@@ -75,14 +75,14 @@
         "fileName": "TC_Login_Validation.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "7da47247-c77b-407e-9333-f6e571fac2f1",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "TC_Upload_Resume.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "cb46aa82-41ed-4521-83a9-f539c9c0f010",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
@@ -110,6 +110,61 @@
           "hasDefault": false
         }
       ],
+      "output": []
+    },
+    {
+      "filePath": "TC_Candidate_Registration_RandomData.xaml",
+      "uniqueId": "16c32c27-1472-407f-9d5a-5e14916b4815",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "TC_Job_Post_DynamicData.xaml",
+      "uniqueId": "f8385e70-a88d-4c8c-8125-4717a5565626",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "TC_Login_Validation.xaml",
+      "uniqueId": "d07ee6cc-4ccc-451e-a7be-f73c5425fbbc",
+      "input": [
+        {
+          "name": "expectedMsg",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": false
+        },
+        {
+          "name": "Username",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": false
+        },
+        {
+          "name": "Password",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": false
+        },
+        {
+          "name": "ExpectedMessage",
+          "type": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+          "required": false,
+          "hasDefault": false
+        }
+      ],
+      "output": []
+    },
+    {
+      "filePath": "TC_Upload_Resume.xaml",
+      "uniqueId": "7da47247-c77b-407e-9333-f6e571fac2f1",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "End2End)_Jobs_Candidate_Matching.xaml",
+      "uniqueId": "cb46aa82-41ed-4521-83a9-f539c9c0f010",
+      "input": [],
       "output": []
     }
   ],

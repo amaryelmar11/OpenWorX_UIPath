@@ -2,6 +2,16 @@
   "Version": "1.0",
   "Metadata": [
     {
+      "ApplicationType": "API",
+      "ExecutablePath": null,
+      "Url": {
+        "Value": "https://panther-api-prod.azurewebsites.net",
+        "IsExpression": false
+      },
+      "Arguments": null,
+      "Version": null
+    },
+    {
       "ApplicationType": "Chrome",
       "ExecutablePath": {
         "Value": "chrome.exe",
@@ -9,16 +19,6 @@
       },
       "Url": {
         "Value": "https://pantherportal-prod.azurewebsites.net",
-        "IsExpression": false
-      },
-      "Arguments": null,
-      "Version": null
-    },
-    {
-      "ApplicationType": "API",
-      "ExecutablePath": null,
-      "Url": {
-        "Value": "https://panther-api-prod.azurewebsites.net",
         "IsExpression": false
       },
       "Arguments": null,

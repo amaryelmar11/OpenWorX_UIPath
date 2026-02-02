@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome OpenWorX(2)",
+  "Type": "Screen",
+  "Id": "tcNU6mioZU2V2AS2y4kYrQ",
+  "Reference": "-Aa92v0zR0epOoMlu-QWWw/tcNU6mioZU2V2AS2y4kYrQ",
+  "ParentRef": "-Aa92v0zR0epOoMlu-QWWw/QIOi0vqY_EaWAAQ__6HUUw",
+  "Created": "2026-01-29T05:09:52.7327443Z",
+  "Updated": "2026-01-29T05:09:52.7327443Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.24.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
