@@ -86,7 +86,7 @@
         "testCaseId": "cb46aa82-41ed-4521-83a9-f539c9c0f010",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "End2End)_Jobs_Candidate_Matching.xaml"
+        "fileName": "TC_End2End)_Jobs_Candidate_Matching.xaml"
       }
     ],
     "saveToCloud": false
@@ -162,7 +162,7 @@
       "output": []
     },
     {
-      "filePath": "End2End)_Jobs_Candidate_Matching.xaml",
+      "filePath": "TC_End2End)_Jobs_Candidate_Matching.xaml",
       "uniqueId": "cb46aa82-41ed-4521-83a9-f539c9c0f010",
       "input": [],
       "output": []
